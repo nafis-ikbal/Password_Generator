@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="./output.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Random Password Generator</title>
+  </head>
+  <body class="bg-stone-300">
+    <div class="min-h-screen flex items-center justify-center flex-col px-4 py-8">
+      <h1 class="text-2xl md:text-4xl lg:text-5xl font-semibold p-2 border-b-2 border-dashed border-orange-600 text-center">
+        Generate a Random Password
+      </h1>
+
+      <div class="my-6 bg-white p-3 h-12 w-full max-w-md rounded-3xl flex justify-center items-center">
+        <input type="text" placeholder="random password" id="password"
+          class="flex-1 p-2 outline-0 text-base md:text-xl">
+        <div class="tooltip tooltip-left tooltip-accent ml-2" data-tip="copy">
+          <i class="copy fa-solid fa-clone fa-lg cursor-pointer" style="color: #5fcead;"></i>
+        </div>
+      </div>
+
+      <button class="btn btn-accent rounded-xl">
+        <i class="fa-solid fa-bolt mr-2"></i>
+        Generate
+      </button>      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
