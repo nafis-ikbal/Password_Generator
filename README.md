@@ -2,6 +2,10 @@
 
 A simple, elegant, and secure password generator built with HTML, CSS (Tailwind CSS), and JavaScript. Generate strong passwords with a mix of uppercase letters, lowercase letters, numbers, and special characters.
 
+## 🌐 Live Preview
+
+Check out the live demo: [Password Generator](https://passsword-generator0.netlify.app/)
+
 ## ✨ Features
 
 - **🎲 Random Password Generation**: Creates 8-character passwords with guaranteed complexity
